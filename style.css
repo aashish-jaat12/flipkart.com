@@ -1,0 +1,427 @@
+*{margin: 0px;
+padding: 0px;}
+
+
+
+.stacky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+} 
+
+
+.hadder{
+	background-color: blue;
+	    display: flex;
+    width: 100%;
+   
+   
+}
+
+.facebookimg{width: 74px;
+    height: 27px;
+    display: flex;
+    padding: 11px 22px 0px;
+
+
+}
+ .p1{
+	color: white;
+	margin:  0px 0px 7px 40px;
+ font-size: 12px;
+ font-style: italic;
+}
+
+.p1 a{
+	color: yellow;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.list ul {list-style: none;
+	display: flex;
+}
+
+.list ul li{padding: 16px 20px;
+}
+	
+
+.list ul li a{
+	text-decoration: none;
+	color: rgb(0% 89% 100%);
+
+}
+
+.lift{
+	display: flex;
+}
+
+.search{
+	padding: 11px 3vw;
+
+}
+
+.search input{
+	 width: 38vw;
+	 height: 22px;
+	
+border-radius: 5px;
+text-align:center;
+
+}
+
+
+.submit{
+	padding: 14px 7px;
+	
+	
+}
+
+.submit i{
+	 width: 55px;
+	 height: 20px;
+	 color: white;
+font-size: 24px;
+
+cursor: pointer;
+	
+
+
+}
+
+
+
+ul li a:hover{font-weight: bold;
+	
+}
+
+.lift{width: 100%;
+	display: flex;
+justify-content: right;}
+
+
+
+
+.phoneserch{
+	display: flex;
+	background-color: blue;
+	height: 43px;
+	display: none;
+	padding-top: 4px;
+	border-radius: 0px 0px 5px 5px;
+
+
+		}
+
+	.phoneserch1 {
+		margin: 0px 9px;
+	} 	
+
+.phoneserch input{
+	width: 100%;
+	height: 34px;
+	border-radius: 2px;
+	border: none;
+
+	    
+}	
+
+
+.marquee1 img{margin-top: 110px;
+height: 100px;
+width: 100px;
+margin-right: 15px;}	
+
+.contact1 {
+		background-image: url(8.jpeg) ;
+		border-radius: 5px;
+		background-size: 100% 100%;
+	
+	margin: 30px 5% 20px 5%;
+	height: 70vh;
+	width: 90%;
+
+	animation: changimg 25s infinite;
+	color-interpolation-filters: ease-in-out;
+	animation-direction: alternate;
+	animation-delay: 2s;
+}
+
+
+
+@keyframes changimg{
+	0%{ background-image: url(8.jpeg);
+		}
+
+		10%{
+			background-image: url(3.jpeg);
+		}
+	10%{
+			background-image: url(1.jpeg);
+		}
+		20%{
+			background-image: url(5.jpeg);
+		}
+		30%{
+			background-image: url(6.jpeg);
+		}
+		40%{
+			background-image: url(8.jpeg);
+		}
+		50%{
+			background-image: url(1.jpeg);
+		}
+		60%{
+			background-image: url(8.jpeg);
+		}
+		70%{
+			background-image: url(1.jpeg);
+		}	
+		80%{
+			background-image: url(8.jpeg);
+		}
+		90%{
+			background-image: url(6.jpeg);
+		}
+		100%{
+			background-image: url(1.jpeg);
+		}
+
+		
+}
+
+.contact1:hover{ 
+	box-shadow: 0px 8px 24px rgba(149,157,165,1);
+}
+
+
+
+
+
+.card{
+	margin: 3px 10px ; font-size: 19px;
+
+}
+
+
+.contact{
+	
+	display: flex;
+	justify-content: space-around;
+	
+
+	flex-wrap: wrap;
+
+}
+
+.lines{
+	margin-top: 10px;
+}
+.card-item{ 
+
+	margin:15px 0px;
+	
+display: flex; 
+justify-content: center;
+flex-direction: column;
+box-shadow: 0px 8px 24px rgba(234,203,173,1);
+text-align: center;
+}
+
+
+.card-item img{
+	
+	width: 150px;
+height: 130px;
+border-radius: 5px;
+}
+
+
+
+
+.icion{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 15px;
+    
+
+}
+
+.right{
+display: flex;
+justify-content: space-between;
+justify-content: center;
+
+
+
+}
+
+	 .right1{display: flex;
+	 	    font-size: 30px;
+    margin-left: 19vw;
+	 	
+	 }
+
+
+	 .right1 i{    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 5px;
+    transition: 0.4s ease-in-out;
+}
+
+	 
+.right1 i:hover{
+	transform: rotate(360deg);
+}
+
+
+
+	 .right2{ display: flex;
+	    margin: 0px 0px 0px 35px;
+    font-size: 24px;}
+
+    .right2 a{text-decoration: none;}
+
+	 .life{ 
+	 	    font-size: 24px;
+    margin: 0px 42px;}
+
+
+    .footer1{display: flex;
+	background-color: blue;
+padding: 20px 0px;
+color: white;
+	
+	justify-content: center;
+
+
+
+}
+
+
+/*offer images for seles*/
+
+.offer1{display: flex;
+	
+}
+
+.offer1 img{
+	height: 420px;
+	width: 90vw;
+	margin: 14px 4%;
+	border-radius: 4px;
+}
+
+
+
+
+/*phone dbsahdgsahffvsafgsahgfhsa*/
+
+
+
+
+.Contactphone{ background-color: #4256df;
+	
+	display: flex;
+	flex-direction: row;
+
+	
+	border-radius: 4px 4px 0px 0px;
+
+	justify-content: space-around;
+	justify-content: center;
+	
+}
+
+.phone{
+	display: none;
+	position: sticky;
+	bottom: 0;
+
+}
+
+.itemphone{
+	flex-direction: row;
+	margin: 20px auto;
+;
+
+}
+
+.itemphone i{
+	color: white;
+	font-size: 34px;
+}
+
+@media (max-width: 700px){
+	div.card-item img{width: 38vw;
+height: 200px;}
+
+
+
+.footer1{display: none;}
+
+.phone{
+	display: block;
+}
+
+
+.lines p{font-size: 16px;}
+
+
+.submit{
+	margin: 0px -5px;
+}
+
+.contact1 {
+height: 53vh;
+	}
+
+	
+.offer1 img{height: 270px;
+}
+	
+	.icion{display: none;}
+
+
+
+}
+
+
+@media  (max-width: 1050px){
+
+	 .right{flex-direction: column;}
+
+	.right1{
+		margin-top: 10px;
+		margin-left: -5px;
+	}
+	
+	}
+@media (max-width: 900px)
+
+{
+	.list{display: none;}
+
+	
+}
+
+
+
+
+@media(max-width: 600px){
+	.search{
+		display: none;
+	}
+.phoneserch{display: block;}
+
+
+}
+
+
+
+
+
+
